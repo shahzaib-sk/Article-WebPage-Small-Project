@@ -1,0 +1,45 @@
+@media (max-width: 1320px) {
+  .left {
+    padding: 36px;
+  }
+
+  .left p {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .left {
+    padding: 36px;
+  }
+
+  .left p {
+    width: 180px;
+  }
+}
+
+@media (max-width: 700px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .left p {
+    width: 100%;
+  }
+
+  .navigation {
+    justify-content: stretch;
+  }
+
+  .navigation li {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+}
